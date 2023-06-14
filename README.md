@@ -22,7 +22,7 @@ conda create -n stockchat python== 3.10
 
 - Install the required dependencies in the virtual environment and tsinghua mirror is strongly recommended!
 ```
-pip install -r requirements.txt -i [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 - Launch the chat service locally:
@@ -32,14 +32,15 @@ streamlit run src/Home.py
 
 ## On cloud 
 **AutoDL service** is tested and the image will be provided:
-First input following command line in the new terminal
+
+- First input following command line in the new terminal
 '''
 source activate 
 '''
 
-Then follow the instructions as stated above.
+- Then follow the instructions as stated above.
 
-For SSH channel question, please refer to the document or [the guide video from Bilibili](https://www.bilibili.com/opus/777675928761270272).
+- For SSH channel question, please refer to the document or [the guide video from Bilibili](https://www.bilibili.com/opus/777675928761270272).
 
 
 ### Core functions and future devplan 
@@ -58,7 +59,7 @@ For SSH channel question, please refer to the document or [the guide video from 
 
 ### A record of our efforts and experience.
 - ref/stockchat-brainstorm-plan shows our brainstorming process.
-- ref/linux-deploy-guide.pdf shows the mistakes and how-to-fix guide for linux deployment.
+- ref/linux-deploy-guide.pdf shows the mistakes and how-to-fix guide for linux deployment of [LangChain-ChatGLM project](https://github.com/imClumsyPanda/langchain-ChatGLM).
 - A list of some key open-source projects from which we've gained helpful inspirations are listed below. Many thanks to those creative contributors. 👏🏻👏🏻
 
 ## 记“可私有化部署、切换不同LLM的股票聊天机器人”的学习、开发历程 20230614😂😄
@@ -67,7 +68,7 @@ For SSH channel question, please refer to the document or [the guide video from 
 
 在社区提供的课程学习基础上，在社区小伙伴的❤️献言献策❤鼓励中以及特别指导 - [社恐杨老师](https://github.com/pzc163)的因材施教、渐进式指导下，（完全没有LLM或编程/产品开发经验的）本小组成员们先后观摩学习了不同的开源项目，从中汲取思路并反复尝试，最后放弃了开源社区比较成熟的LangChain-ChatGLM（虽然基本契合项目开发目标，但环境依赖包略多、配置容易冲突😂），转而专注**通过少数框架和工具包，完成核心功能的实现。**
 - 项目计划和头脑风暴示意见 ref/stockchat-brainstorm-plan.
-- LangChain-ChatGLM-TigerBot 的linux部署和易错问题 见 ref/linux-deploy-guide.pdf
+- [LangChain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) 的linux部署和易错问题 见 ref/linux-deploy-guide.pdf
 - [AutoDL新webUI访问（SSH隧道访问）](https://www.bilibili.com/opus/777675928761270272)
 - 重要参考项目见下表，感谢他们为开源社区的用爱发电👏🏻👏🏻~ ~
 
