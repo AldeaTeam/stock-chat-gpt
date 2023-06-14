@@ -33,10 +33,10 @@ streamlit run src/Home.py
 ## On cloud 
 **AutoDL service** is tested and the image will be provided:
 
-- First input following command line in the new terminal
-'''
+- First input in the new terminal:
+```
 source activate 
-'''
+```
 
 - Then follow the instructions as stated above.
 
